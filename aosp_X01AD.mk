@@ -34,9 +34,13 @@ endif
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTENDED_BUILD_TYPE :=UNOFFICIAL
 DEVICE_MAINTAINER := Nishant
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Pixel Offline charging animation
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifiers.
 PRODUCT_NAME := aosp_X01AD
