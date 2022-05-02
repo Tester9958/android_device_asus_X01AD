@@ -27,20 +27,9 @@ $(call inherit-product, vendor/aosp/common.mk)
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-ifeq ($(WITH_GAPPS), true)
-TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
-endif
-
+# Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-EXTENDED_BUILD_TYPE :=UNOFFICIAL
-DEVICE_MAINTAINER := Nishant
-TARGET_SUPPORTS_QUICK_TAP := true
-
-# Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Pixel Offline charging animation
-TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifiers.
 PRODUCT_NAME := aosp_X01AD
