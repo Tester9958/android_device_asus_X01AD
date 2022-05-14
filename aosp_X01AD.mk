@@ -30,6 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+DEVICE_MAINTAINER := Nishant
 
 # Device identifiers.
 PRODUCT_NAME := aosp_X01AD
