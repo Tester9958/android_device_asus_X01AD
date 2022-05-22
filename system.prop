@@ -191,3 +191,6 @@ persist.asus.led.on=1
 
 # BPF
 ro.kernel.ebpf.supported=true
+
+# photos quality switch to 100%
+ro.media.enc.jpeg.quality=100
