@@ -202,3 +202,6 @@ ro.ril.power_collapse=1
 pm.sleep_mode=1
 wifi.supplicant_scan_interval=180
 ro.mot.eri.losalert.delay=1000
+
+# Fast Reboot Allow purging of assets 
+persist.sys.purgeable_assets=1
