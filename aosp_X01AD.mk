@@ -26,6 +26,7 @@ $(call inherit-product, vendor/aosp/common.mk)
 
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
