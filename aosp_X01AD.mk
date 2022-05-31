@@ -31,7 +31,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 # Some Build Flags
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 DEVICE_MAINTAINER := Nishant
 
 TARGET_SUPPORTS_QUICK_TAP := true
