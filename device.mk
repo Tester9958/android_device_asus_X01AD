@@ -346,10 +346,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
